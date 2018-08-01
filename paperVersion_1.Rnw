@@ -28,7 +28,6 @@ Exploración Univariada
 
 En esta sección exploro cada índice.
 
-
 <<getData, echo=FALSE>>=
 # carga de datos
 filename="indexes.csv"
@@ -48,6 +47,8 @@ tableNominal(vars = dataidx[, c(7:10)],
              caption.placement = "top",
              add.to.row = list(pos = list(0),
                                command = "\\hline"))
+# tableNominal solo se aplcia para tablas de frecuencias
+#Caption es el título
 @
 
 

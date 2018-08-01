@@ -19,7 +19,7 @@
 
 \title{LOS INDICES DEL MUNDO}
 % autores
-\renewcommand\Authand{, y }
+%\renewcommand\Authand{, y }
 \author[1]{\normalsize Estrella DelCurso}
 \author[2]{\normalsize Prossimo Deal Lado}
 

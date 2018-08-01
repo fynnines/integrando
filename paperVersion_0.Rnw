@@ -24,8 +24,6 @@ Exploración Univariada
 En esta sección exploro cada índice.
 
 
-
-
 <<getData>>=
 # carga de datos
 filename="indexes.csv"
