@@ -221,7 +221,7 @@ stargazer(LinRegA,LinRegB,title = "Modelos de Regresión",
 
 Estos son los lugares donde tenemos información:
 
-<<getMap, echo=FALSE,results=verbatim>>=
+<<getMap, echo=FALSE,results=hide>>=
 library(rgdal)
 folder='world_map'
 file='world_map.shp'
@@ -231,6 +231,7 @@ mapaMundo= rgdal::readOGR(mapaFile,stringsAsFactors=F)
 
 <<checkNames, echo=FALSE,eval=FALSE>>=
 names(mapaMundo)
+#Como dice echo=FALSE y eval=FALSE ni se va a ejecutar ni se va a mostrar en el paper
 @
 
 <<mergeMap,echo=FALSE>>=

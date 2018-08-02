@@ -19,7 +19,8 @@
 
 \title{LOS INDICES DEL MUNDO}
 % autores
-%\renewcommand\Authand{, y }
+\renewcommand\Authand{, y } %el comando renewcomand es para reprogramar un comando,
+%en este caso estamos cambiando el and por un "y".
 \author[1]{\normalsize Estrella DelCurso}
 \author[2]{\normalsize Prossimo Deal Lado}
 

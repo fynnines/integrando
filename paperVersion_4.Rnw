@@ -3,7 +3,9 @@
 %%%%
 % MAS PLOTS EN CORRELACION
 % \usepackage{adjustbox}
-%%%%
+%adjustbox es para ajustar el tamaño del plot
+%puedo achicar el margen (trim)
+%%
 \usepackage{rotating}
 \usepackage[utf8]{inputenc}
 \usepackage{longtable}
@@ -186,6 +188,7 @@ Lo visto en la Tabla \ref{corrTableX} se refuerza claramente en la Figura \ref{c
 \centering
 \begin{adjustbox}{width=7cm,height=7cm,clip,trim=1.5cm 0.5cm 0cm 1.5cm}
 <<corrPlotX, echo=FALSE,fig=TRUE>>=
+#install.packages("corrplot")
 library(corrplot)
 corrplot(corrTableX_copy, type = "lower", diag = F,
          addCoef.col = "black")
